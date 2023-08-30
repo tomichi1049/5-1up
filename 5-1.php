@@ -11,7 +11,7 @@
             //変数の定義
             $tablename='tbtest';
             //データベースに接続
-            $dsn = 'mysql:dbname=*****;host=localhost';
+            $dsn = 'mysql:dbname=******;host=localhost';
             $user = '******';
             $password = '******';
             //エラーのときに「エラーですよ」と表示してもらう
