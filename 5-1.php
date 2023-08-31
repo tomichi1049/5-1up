@@ -12,9 +12,9 @@
             //変数の定義
             $tablename='tbtest';
             //データベースに接続
-            $dsn = 'mysql:dbname=databasename;host=localhost';
-            $user = 'username';
-            $password = 'password';
+            $dsn = 'mysql:dbname=******;host=localhost';
+            $user = '******';
+            $password = '******';
             //エラーのときに「エラーですよ」と表示してもらう
             $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
             //テーブルの作成
